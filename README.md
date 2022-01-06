@@ -13,9 +13,11 @@ the required tables for the website to work
 
 3# Run the creadte_db script ( you might have to run a migration with "flask db migrate" and "flask db upgrade" ) 
 
-4# Set Flask environment variables to "FLASK_APP=app.py" and "FLASK_ENV=development"
+4# Set the database credentials in app.py to your MySQL credentials
 
-5# Run the "flask run" command
+5# Set Flask environment variables to "FLASK_APP=app.py" and "FLASK_ENV=development"
+
+6# Run the "flask run" command
 
 
 # TODO - for now
