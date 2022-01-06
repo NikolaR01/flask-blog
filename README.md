@@ -11,9 +11,9 @@ the required tables for the website to work
 
 2# In the directory run pip install -r requirements.txt
 
-3# Run the creadte_db script
+3# Run the creadte_db script ( you might have to run a migration with "flask db migrate" and "flask db upgrade" ) 
 
-4# Set Flask environment variables to "app.py" and "development"
+4# Set Flask environment variables to "FLASK_APP=app.py" and "FLASK_ENV=development"
 
 5# Run the "flask run" command
 
